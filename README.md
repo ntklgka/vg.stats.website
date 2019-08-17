@@ -1,7 +1,7 @@
 # vgstats.xyz
 This project is divided into three repos:
 
-* vg.stats.scraper: https://github.com/ntklgka/vg.stats.scraper
+* vg.stats.tracker: https://github.com/ntklgka/vg.stats.tracker
 * vg.stats.API: https://github.com/ntklgka/vg.stats.API
 * vg.stats.website: this one
 
