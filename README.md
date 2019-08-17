@@ -7,4 +7,6 @@ This project is divided into three repos:
 
 
 # vg.stats.website
-The frontend for vgstats. Made using ReactJS. Shoutouts to Ducky.
+The frontend for vgstats. Made using ReactJS.
+
+Shoutouts to Ducky.
