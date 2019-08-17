@@ -11,7 +11,7 @@ class GitButton extends Component {
 		};
 		return (
 			<div className ="git-btn">
-				<Button variant="success" href="https://github.com/ntklgka/vg.stats.scraper" target="_blank"><FontAwesomeIcon icon={faGithub} style={style}/></Button>
+				<Button variant="success" href="https://github.com/ntklgka/vg.stats.tracker" target="_blank"><FontAwesomeIcon icon={faGithub} style={style}/></Button>
 			</div>
 		);
 	}
