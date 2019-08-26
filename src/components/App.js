@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
-import TopToolbar from './TopToolbar';
 import Table1 from './Table1';
+import Navbar1 from './Navbar';
 
 class App extends Component {
 	
@@ -22,7 +22,7 @@ class App extends Component {
 	render() {
 		return (
 			<div>
-				<TopToolbar/>
+				<Navbar1/>
 				<div className="Table">
 					<Table1 threads = {this.state.threads.data}/>
 				</div>
