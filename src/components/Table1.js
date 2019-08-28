@@ -17,7 +17,7 @@ class Table1 extends Component {
 		
 		if (this.props.threads !== undefined){
 			
-			let threadType = 'thread_name';
+			let threadType = 'thread_identifier';
 			
 			const columns = [{
 				dataField: threadType,
@@ -38,7 +38,7 @@ class Table1 extends Component {
 				headerSortingStyle
 			}, {
 				dataField: 'unique_ips',
-				text: 'Unique IPs',
+				text: 'IPs',
 				sort: true,
 				headerSortingStyle
 			}, {
@@ -48,7 +48,7 @@ class Table1 extends Component {
 				headerSortingStyle
 			}, {
 				dataField: 'avg_pphr',
-				text: 'Posts per hour',
+				text: 'Posts per Hour',
 				sort: true,
 				headerSortingStyle
 			}, {
@@ -79,7 +79,18 @@ class Table1 extends Component {
 					
 					return totalsecondsA - totalsecondsB; // asc				
 				}
-			}];
+			}, {
+				dataField: 'img_replies',
+				text: 'Images',
+				sort: true,
+				headerSortingStyle
+			}, {
+				dataField: 'img_prcnt',
+				text: 'Image %',
+				sort: true,
+				headerSortingStyle
+			}
+			];
 			
 			const defaultSorted = [{
 			  dataField: 'avg_pphr', 
