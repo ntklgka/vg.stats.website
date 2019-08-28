@@ -14,7 +14,7 @@ class App extends Component {
 	}
 	
 	componentDidMount() {
-		fetch('http://vgstats.xyz/dev/api/recent')
+		fetch('https://vgstats.xyz/dev/api/recent')
 		.then(response => response.json())
 		.then(threads => this.setState({ threads }));
 	}
