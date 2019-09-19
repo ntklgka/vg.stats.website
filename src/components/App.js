@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import '../App.css';
-import Table1 from './Table1';
+import TableContainer from './TableContainer';
 import Navbar1 from './Navbar';
 
 class App extends Component {
@@ -23,9 +22,7 @@ class App extends Component {
 		return (
 			<div>
 				<Navbar1/>
-				<div className="Table">
-					<Table1 threads = {this.state.threads.data}/>
-				</div>
+				<TableContainer threads = {this.state.threads.data}/>
 			</div>
 		);
 	}
