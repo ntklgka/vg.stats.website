@@ -93,8 +93,8 @@ class Table1 extends Component {
 		];
 		
 		const defaultSorted = [{
-		  dataField: 'avg_pphr', 
-		  order: 'desc' // desc or asc
+		  dataField: 'img_prcnt', 
+		  order: 'asc' // desc or asc
 		}];
 		
 		return (
